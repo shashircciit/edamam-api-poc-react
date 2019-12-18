@@ -37,6 +37,7 @@ function App() {
     <div className="App">
       <form onSubmit={getSearch} className="search-form">
         <input
+          placeholder="Enter any edible item(strawberry/honey...)"
           type="text"
           className="search-bar"
           value={search}
